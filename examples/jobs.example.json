@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Data Analyst",
+    "company": "Example AG",
+    "url": "https://example.com/careers/data-analyst",
+    "location": "Zurich, Switzerland",
+    "work_mode": "hybrid",
+    "required_skills": ["SQL", "Excel", "data analysis"],
+    "preferred_skills": ["Power BI", "Python"]
+  },
+  {
+    "title": "Business Intelligence Analyst",
+    "company": "Sample GmbH",
+    "url": "https://example.org/jobs/bi-analyst",
+    "location": "Remote",
+    "work_mode": "remote",
+    "required_skills": ["Power BI", "SQL", "Python"],
+    "preferred_skills": ["stakeholder management", "Tableau"]
+  }
+]
