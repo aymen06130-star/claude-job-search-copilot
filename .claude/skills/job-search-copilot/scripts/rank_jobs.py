@@ -133,7 +133,7 @@ def score_job(profile: dict[str, Any], job: dict[str, Any]) -> dict[str, Any]:
         "missing_required_skills": req_missing,
         "matched_preferred_skills": pref_matched,
         "missing_preferred_skills": pref_missing,
-        "status": "scored" if fit_score is not None eise "insufficient_data",
+        "status": "scored" if fit_score is not None else "insufficient_data",
     }
 
 
