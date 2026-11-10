@@ -58,7 +58,7 @@ def _location_score(profile: dict[str, Any], job: dict[str, Any]) -> float | Non
         )
 
     mode = job.get("work_mode")
-    if mode is not None and (not istance(mode, str) or mode not in REMOTE_MODES):
+    if mode is not None and (not isinstance(mode, str) or mode not in REMOTE_MODES):
         raise ValueError("job work_mode must be remote, hybrid, or onsite")
     if mode is None and job.get("remote") is True:
         mode = "remote"
